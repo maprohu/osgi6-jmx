@@ -7,7 +7,7 @@
         <relativePath>../osgi6-parent</relativePath>
     </parent>
     <artifactId>osgi6-jmx</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <build>
         <plugins>
@@ -18,7 +18,7 @@
                     <instructions>
                         <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
                         <Embed-Transitive>true</Embed-Transitive>
-                        <Export-Package></Export-Package>
+                        <Export-Package />
                         <Bundle-Activator>osgi6.jmx.Activator</Bundle-Activator>
                     </instructions>
                 </configuration>
@@ -41,6 +41,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/maprohu/osgi6-jmx.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>osgi6-jmx-1.0.0</tag>
     </scm>
 </project>
